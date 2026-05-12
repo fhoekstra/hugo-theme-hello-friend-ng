@@ -43,6 +43,14 @@
   }
 }
 
+.token-ring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  cursor: pointer;
+}
+
 .theme-toggle {
   display: flex;
   align-items: center;
