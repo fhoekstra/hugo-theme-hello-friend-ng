@@ -51,6 +51,14 @@
   cursor: pointer;
 }
 
+.token-ring-icon--dark  { display: none; }
+.token-ring-icon--light { display: block; }
+
+[data-theme=dark] {
+  .token-ring-icon--dark  { display: block; }
+  .token-ring-icon--light { display: none; }
+}
+
 .theme-toggle {
   display: flex;
   align-items: center;
